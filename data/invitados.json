@@ -11,5 +11,13 @@
     "nombre": "Lesly Elizalde y familia",
     "boletos": 5,
     "asistencia": true
+  },
+
+     {
+    "id": "Misael_ronderos",
+    "nombre": "Misael Ronderos y Familia",
+    "boletos": 4,
+    "asistencia": true
   }
+
 ]
