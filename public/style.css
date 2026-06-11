@@ -230,8 +230,78 @@ body {
   text-align:center;
 }
 
+.seccion-fecha{
+
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdiM32TBSnNEMfnyLNi66KWhLtTtgf7uBLw&s");
+
+  background-size:cover;
+  background-position:center;
+
+  padding:120px 20px;
+
+  text-align:center;
+}
+
+.eventos{
+
+  background-image:url("https://us.123rf.com/450wm/scenery1/scenery11909/scenery1190900331/130661170-oro-textura-fondo-resumen-lujoso.jpg?ver=6");
+
+  background-size:cover;
+  background-position:center;
+
+  padding:120px 20px;
+
+  text-align:center;
+}
+
+.mesa-regalos{
+
+  background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20210625/pngtree-golden-yellow-maple-leaves-autumn-leaf-light-effect-background-image_731612.jpg");
+
+  background-size:cover;
+  background-position:center;
+
+  padding:120px 20px;
+
+  text-align:center;
+}
 
 
+.boletos section{
+
+  background-image:url("https://www.katebackdrop.com/cdn/shop/products/Kate_fall_Photo_Backdrop_7x5ft_BH1020531D.jpg?v=1624257184&width=800");
+
+  background-size:cover;
+  background-position:center;
+
+  padding:120px 20px;
+
+  text-align:center;
+}
+
+.formulario{
+
+  background-image:url("https://t3.ftcdn.net/jpg/05/25/15/02/360_F_525150264_Y5SnsvFDH3Bf4DBxtyWX5WEWUNzSXlm0.jpg");
+
+  background-size:cover;
+  background-position:center;
+
+  padding:120px 20px;
+
+  text-align:center;
+}
+
+.galeria{
+
+  background-image:url("https://i.pinimg.com/originals/90/98/92/909892f762ef93c64793b9be35e2fb55.jpg");
+
+  background-size:cover;
+  background-position:center;
+
+  padding:120px 20px;
+
+  text-align:center;
+}
 
 /* ===================================== */
 /* TÍTULOS */
