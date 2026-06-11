@@ -12,7 +12,7 @@ body {
 
   font-family: 'Playfair Display', serif;
 
-  background-color: sienna;
+  background-color: #a47436;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -521,10 +521,6 @@ button:hover {
   background: #a47436;
 }
 
-.mesa-regalos {
-  margin-top: 80px;
-  margin-bottom: 30px;
-}
 
 /* ===================================== */
 /* BOLETOS */
