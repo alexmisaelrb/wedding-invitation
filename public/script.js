@@ -213,6 +213,10 @@ function abrirMesaRegalos() {
   datos.append("respuesta", respuesta);
   datos.append("mensaje", mensaje);
 
+  console.log(nombre);
+  console.log(respuesta);
+  console.log(mensaje);
+
   fetch(
     "https://script.google.com/macros/s/AKfycbwUfjzMfc2kvqiUEOPqHC4UqfZ-Z2xXU3FM0VCZG8G8P-e44huhU_pHBjb6WrlrZpg8jQ/exec",
     {
