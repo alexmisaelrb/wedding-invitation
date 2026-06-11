@@ -208,41 +208,35 @@ function abrirMesaRegalos() {
     document.getElementById("mensaje").value;
 
   fetch(
-    "https://script.google.com/macros/s/AKfycbwUfjzMfc2kvqiUEOPqHC4UqfZ-Z2xXU3FM0VCZG8G8P-e44huhU_pHBjb6WrlrZpg8jQ/exec",
-    {
+  "https://script.google.com/macros/s/AKfycbwUfjzMfc2kvqiUEOPqHC4UqfZ-Z2xXU3FM0VCZG8G8P-e44huhU_pHBjb6WrlrZpg8jQ/exec",
+  {
+    method: "POST",
 
-      method: "POST",
+    mode: "no-cors",
 
-      headers: {
-        "Content-Type": "application/json"
-      },
+    headers: {
+      "Content-Type": "application/json"
+    },
 
-      body: JSON.stringify({
+    body: JSON.stringify({
+      nombre,
+      respuesta,
+      mensaje
+    })
+  }
+)
+.then(() => {
 
-        nombre,
-        respuesta,
-        mensaje
+  alert("💕 Gracias por confirmar tu asistencia");
 
-      })
+})
+.catch(error => {
 
-    }
-  )
-  .then(() => {
+  console.error(error);
 
-    alert(
-      "💕 Gracias por confirmar tu asistencia"
-    );
+  alert("Ocurrió un error");
 
-  })
-  .catch(error => {
-
-    console.error(error);
-
-    alert(
-      "Ocurrió un error"
-    );
-
-  });
+});
 
 }
 
