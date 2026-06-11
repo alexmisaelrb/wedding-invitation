@@ -207,31 +207,26 @@ function abrirMesaRegalos() {
   const mensaje =
     document.getElementById("mensaje").value;
 
-  const formData = new FormData();
+  const datos = new URLSearchParams();
 
-  formData.append("nombre", nombre);
-  formData.append("respuesta", respuesta);
-  formData.append("mensaje", mensaje);
+  datos.append("nombre", nombre);
+  datos.append("respuesta", respuesta);
+  datos.append("mensaje", mensaje);
 
   fetch(
     "https://script.google.com/macros/s/AKfycbwUfjzMfc2kvqiUEOPqHC4UqfZ-Z2xXU3FM0VCZG8G8P-e44huhU_pHBjb6WrlrZpg8jQ/exec",
     {
       method: "POST",
       mode: "no-cors",
-      body: formData
+      body: datos
     }
   )
   .then(() => {
-
-    alert("💕 Gracias por confirmar tu asistencia");
-
+      alert("💕 Gracias por confirmar tu asistencia");
   })
   .catch(error => {
-
-    console.error(error);
-
-    alert("Ocurrió un error");
-
+      console.error(error);
+      alert("Ocurrió un error");
   });
 
 }
