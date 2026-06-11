@@ -12,8 +12,7 @@ body {
 
   font-family: 'Playfair Display', serif;
 
-  background-image: url("https://img.magnific.com/foto-gratis/fondo-borde-hoja-arce-temporada-otono-acuarela-naranja_53876-128735.jpg?semt=ais_hybrid&w=740&q=80");
-
+  background-color: sienna;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -202,10 +201,26 @@ body {
     opacity: 1;
   }
 }
+/* ===================================== */
+/* FONDOS DE SECCIONES */
+/* ===================================== */
+
+
+.hero{
+
+  background-image: url("https://img.magnific.com/foto-gratis/fondo-borde-hoja-arce-temporada-otono-acuarela-naranja_53876-128735.jpg?semt=ais_hybrid&w=740&q=80");
+
+  background-size:cover;
+  background-position:center;
+
+  padding:120px 20px;
+
+  text-align:center;
+}
 
 .seccion-frase{
 
-  background-color: #a47436;
+  background-image:url("https://img.magnific.com/foto-gratis/capa-plana-hojas-otono-superficie-brillante_23-2147867980.jpg?semt=ais_hybrid&w=740&q=80");
 
   background-size:cover;
   background-position:center;
