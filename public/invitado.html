@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nuestra Boda</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<audio id="musica" loop>
+    <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+<!-- ========================= -->
+<!-- SOBRE -->
+<!-- ========================= -->
+
+<div class="sobre-full" id="sobre" onclick="abrirSobre()">
+
+        <div class="sobre-contenido">
+
+        <div class="sello">
+            L & A
+        </div>
+
+        <h1 class="nombres-sobre">
+            Lesly    &    Alejandro
+        </h1>
+
+        <div class="linea"></div>
+
+        <h2 id="nombre"></h2>
+
+        <p class="abrir-texto">
+            Tenemos un mensaje para ti, toca para descubrirlo.
+        </p>
+
+    </div>
+
+</div>
+
+<!-- ========================= -->
+<!-- CONTENIDO -->
+<!-- ========================= -->
+
+<div class="contenido" id="contenido">
+
+    <!-- PORTADA -->
+
+    <section class="hero">
+
+        <h1 class="titulo">
+            Nuestra Boda
+        </h1>
+
+        <h2 class="novios">
+            Lesly & Alejandro
+        </h2>
+
+        <img src="foto1.jpg" class="foto-principal">
+
+        <p class="frase">
+            "Hoy comienza nuestro para siempre"
+        </p>
+
+    </section>
+
+    <!-- FOTO 2 -->
+
+    <section>
+
+        <img src="foto2.jpg" class="foto-secundaria">
+
+    </section>
+
+    <!-- FECHA -->
+
+    <section>
+
+        <h2 class="fecha">
+            24 de Octubre de 2026
+        </h2>
+
+        <div class="contador-container">
+
+            <div class="tiempo">
+                <span id="dias">00</span>
+                <p>Días</p>
+            </div>
+
+            <div class="tiempo">
+                <span id="horas">00</span>
+                <p>Horas</p>
+            </div>
+
+            <div class="tiempo">
+                <span id="minutos">00</span>
+                <p>Minutos</p>
+            </div>
+
+        </div>
+
+    </section>
+
+  
+    <!-- CEREMONIA Y RECEPCIÓN -->
+
+    <section class="eventos">
+
+        <div class="evento">
+
+            <img src="church.png" class="icono">
+
+            <h3>Ceremonia</h3>
+
+            <p>
+                Parroquia de Santa María Magdalena de Tepexpan
+                <br>
+                4:00 PM
+            </p>
+
+            <button onclick="abrirMapa('ceremonia')">
+                Ver ubicación
+            </button>
+
+        </div>
+
+        <div class="evento">
+
+            <img src="champagne.webp" class="icono">
+
+            <h3>Recepción</h3>
+
+            <p>
+                Salón Real SAYIL
+                <br>
+                7:00 PM
+            </p>
+
+            <button onclick="abrirMapa('recepcion')">
+                Ver ubicación
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- MESA DE REGALOS -->
+
+    <section class="mesa-regalos">
+
+        <h2 class="titulo-seccion">
+            Mesa de Regalos
+        </h2>
+
+        <p>
+            El mejor regalo es compartir este día con nosotros.
+            <br><br>
+            Si deseas hacernos un obsequio,
+            puedes visitar nuestra mesa de regalos.
+        </p>
+
+        <button onclick="abrirMesaRegalos()">
+            Ver mesa de regalos
+        </button>
+
+    </section>
+
+    <!-- BOLETOS -->
+
+    <section class="boletos-section">
+
+        <h2 class="titulo-seccion">
+            Tus boletos reservados
+        </h2>
+
+        <div class="boletos-card">
+
+            🎫 <span id="boletos"></span>
+
+        </div>
+
+    </section>
+
+    <!-- RSVP -->
+
+    <section class="formulario">
+
+        <h2>
+           ¿Nos acompañaras?
+        </h2>
+
+        <select id="respuesta">
+
+            <option value="si">
+                Si, podre asistir.
+            </option>
+
+            <option value="no">
+                No podre asistir.
+            </option>
+
+        </select>
+
+        <input
+        type="text"
+        id="nombreInput"
+        placeholder="Tu nombre">
+
+
+        <textarea
+        id="mensaje"
+        placeholder="Mensaje para los novios"></textarea>
+
+        <button onclick="confirmar()">
+            Enviar confirmación
+        </button>
+
+    </section>
+
+    <!-- GALERÍA -->
+
+    <section class="galeria">
+
+        <h2 class="titulo-seccion">
+            Estamos felices de compartir contigo el siguiente paso en nuestra historia
+        </h2>
+
+        <div class="grid-galeria">
+
+            <img src="foto3.jpg">
+            <img src="foto4.jpg">
+            <img src="foto5.jpg">
+            <img src="foto6.jpg">
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
