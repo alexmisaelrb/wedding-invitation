@@ -1,7 +1,14 @@
 [
   {
-    "id": "02138b08-342c-4e27-938b-3ba8ab2ad686",
+    "id": "Yazmin_gutierrez",
     "nombre": "Yazmin Gutierrez",
+    "boletos": 2,
+    "asistencia": true
+  }
+
+   {
+    "id": "Lesly Elizalde",
+    "nombre": "Lesly Elizalde y familia",
     "boletos": 2,
     "asistencia": true
   }
