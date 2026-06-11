@@ -203,6 +203,21 @@ body {
   }
 }
 
+.seccion-frase{
+
+  background-image:url("fondo1.jpg");
+
+  background-size:cover;
+  background-position:center;
+
+  padding:120px 20px;
+
+  text-align:center;
+}
+
+
+
+
 /* ===================================== */
 /* TÍTULOS */
 /* ===================================== */
